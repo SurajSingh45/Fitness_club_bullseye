@@ -1,0 +1,81 @@
+body {
+  background-image: url('https://png.pngtree.com/background/20210711/original/pngtree-fitness-exercise-run-banner-background-picture-image_1120513.jpg');
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.form-container {
+  width: 900px;
+  background-color: rgba(100, 111, 183, 0.65);
+  margin: auto;
+  box-shadow: 10px 10px 12px 0px rgba(132,64,190,0.75);
+  -webkit-box-shadow: 10px 10px 12px 0px rgba(132,64,190,0.75);
+  -moz-box-shadow: 10px 10px 12px 0px rgba(132,64,190,0.75);
+  padding: 10px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.header-form {
+  color: rgb(83, 16, 112);
+  padding-left: 270px;
+}
+
+.success-message {
+  font-family: "Roboto", sans-serif;
+  background-color: #1d1e20;
+  padding: 15px;
+  color: white;
+  text-align: center;
+}
+
+.form-field {
+  margin: 10px 0 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+}
+th {
+  background-color: #04AA6D;
+  color: white;
+}
+span {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: red;
+  margin-bottom: 15px;
+}
+
+input {
+  background: #f2f2f2;
+}
+
+.error {
+  border-style: solid;
+  border: 2px solid #ffa4a4;
+}
+
+button {
+  background: #3e0f3f;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 10px 10px 12px 0px rgba(132,64,190,0.75);
+  -webkit-box-shadow: 10px 10px 12px 0px rgba(132,64,190,0.75);
+  -moz-box-shadow: 10px 10px 12px 0px rgba(132,64,190,0.75)
+}

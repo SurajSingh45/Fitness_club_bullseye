@@ -1,7 +1,7 @@
 {
   "name": "fitnessclubform",
   "version": "0.1.0",
-  "homepage": "http:SurajSingh45.github.io/Fitness_club_bullseye",
+  "homepage": "http://SurajSingh45.github.io/Fitness_club_bullseye",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
